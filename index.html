@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="apple-touch-icon" sizes="57x57" href="./icons/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="./icons/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="./icons/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="./icons/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="./icons/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="./icons/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="./icons/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="./icons/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="./icons/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="./icons/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="./icons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="./icons/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="./icons/favicon-16x16.png">
+<link rel="manifest" href="./icons/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Nunito:wght@400;600;700&family=Roboto:wght@400;500;700&family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/index.css">
+  <link rel="stylesheet" href="./css/fonts.css">
+  <title>Nemium</title>
+</head>
+<body>
+  <div class="img"></div>
+
+  <div class="header">
+    <div class="wrapper">
+      <div class="header-content">
+        <header>
+          <h2 class="contenido">contenido</h2>
+          <nav>
+            <details open class="details">
+              <summary class="summary abrir">
+                Setup
+              </summary>
+              <ol>
+                <li><a href="#google">Google Chrome</a></li>
+                <li><a href="#visual">Visual Studio Code</a></li>
+                <li><a href="#figma">Figma</a></li>
+                <li><a href="#github">GitHub</a></li>
+              </ol>
+            </details>
+            <details class="details">
+              <summary class="summary abrir">
+                Conceptos esenciales del Desarrollo Web
+              </summary>
+              <ol>
+                <li><a href="#html">Qué es HTML</a></li>
+                <li><a href="#etiquetas">Etiquetas</a></li>
+                <li><a href="#dom">DOM</a></li>
+                <li><a href="#semantica">Semántica</a></li>
+                <li><a href="#atributos">Atributos</a></li>
+                <li><a href="#css">Qué es CSS</a></li>
+              </ol>
+            </details>
+          </nav>
+        </header>
+      </div>
+    </div>
+  </div>
+
+  <main class="main">
+    <div class="main-wrapper">
+      <div class="main-content">
+        <h1>Curso esencial de HTML y CSS</h1>
+        <p class="parrafo-introduccion">Este es el inicio de tu carrera como Desarrollador Web, empezarás aprendiendo HTML y CSS para la creación de contenidos, en el nivel 2 aprenderás de componentes y en 3 sobre layouts.</p>
+      <hr>
+      <section class="setup before">
+        <h2>Setup</h2>
+        <img class="logo" src="./images/Google Chrome.png" alt="logo Google  Chrome" title="logo Google Chrome">
+        <h3 id="google">Google Chrome</h3>
+        <p>Chrome va a ser <span>el navegador que utilizaremos</span>  en el curso por su extenso soporte de nuevos estándares y herramientas de desarrollo avanzadas y de amigable uso.</p>
+
+        <img class="logo" src="./images/Visual Studio Code.png" alt="logo Visual Studio Code" title="logo Visual Studio Code">
+        <h3 id="visual">Visual Studio Code</h3>
+        <p>Visual Studio Code es el editor de texto más popular y potente del mercado actualmente, su fácil uso y la capacidad de extenderlo por medio de plugins lo hace el complemento perfecto para cualquier programador sin importar el lenguaje en el que se desemvuelva.</p>
+      
+        <img class="logo" src="./images/Figma.png" alt="logo Figma" title="logo Figma">
+        <h3 id="figma">Figma</h3>
+        <p>Figma es una la herramienta más popular en la actualidad para entregar diseños a los desarrolladores para su implementación por su <span>fácil uso</span>  porque puede ser usado directamente desde el navegador.</p>
+
+        <img class="logo" src="./images/GitHub.png" alt="logo GitHub" title="logo GitHub">
+        <h3 id="github">GitHub</h3>
+        <p>Así como en Facebook te encuentran tus amigos, en Github te encuentran otras programadoras y programadores de todo el mundo, en vez de subir fotos de tus viajes aquí subes tu código y puedes elegir hacerlo “open source” o guardarlo de manera privada, Github será esencial para almacenar tu futuro portafolio.</p>
+      
+        <blockquote>
+          <p>“Este es el inicio de tu carrera como Desarrollador Web”</p>
+          <p class="cita">Leonidas Esteban</p>
+        </blockquote>
+      </section>
+
+      <section class="conceptos-esenciales before modelo">
+        <h2>Conceptos esenciales del Desarrollo Web</h2>
+        <h3 id="html">Qué es HTML</h3>
+        <p>Hyper Text Markup Language o Lenguaje de marcas Hipertexto. Es el componente más básico de la web. Define el significado y la estructura del contenido.</p>
+        <pre>
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+&lt;meta charset=&quot;UTF-8&quot;&gt;
+&lt;meta http-equiv=&quot;X-UA-Compatible&quot; 
+content=&quot;IE=edge&quot;&gt;
+&lt;meta name=&quot;viewport&quot; 
+content=&quot;width=device-width, 
+initial-scale=1.0&quot;&gt;
+&lt;title&gt;Document&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  
+&lt;/body&gt;
+&lt;/html&gt;
+        </pre>
+
+        <h3 id="etiquetas">Etiquetas</h3>
+        <p>Las etiquetas HTML van a ayudarnos a brindar una estructura y semántica al contenido de nuestro website y cada una tiene características y usos diferentes aunque visualmente den un resultado similar.</p>
+        <p>Muchas etiquetas son fácil de diferencias como los headings o las imágenes y otras diferentes como header, footer, section o div, aquí es donde la semántica será la respuesta y si sabemos un poco de inglés también podremos darnos una pequeña idea de su uso pero en este curso vamos a usar las más importantes y que serán parte de tu día a día como Software Developer.</p>
+         
+        <h3 id="dom">DOM</h3>
+        <p>El Document Object Model es una estructura de árbol que representará todos nuestros proyectos web como si un árbol genealógico fuera: padres, hijos, hermanos con niveles infinitos. cuando entendemos esta anidación podemos identificar dependencias, herencias en css y que tan complejo es nuestro proyecto.</p>
+        <img src="./images/dom.png" alt="logo dom" title="logo dom">
+
+        <h3 id="semantica">Semántica</h3>
+        <p>La semántica le brinda sentido a cada elemento existen en un sitio web, algunos elementos será meramente decorativos y no deben significar nada pero otros serán títulos y deberán estar en diferente jerarquías o alguna secciones serán más relevantes que otras, esto ayudará a los motores de búsqueda como Google o Duck Duck Go a diferenciar tu contenido, categorizar y será la herramientas más valiosa para estar en los primeros resultados de búsqueda SEO. También ayudará a la accesibilidad de tu sitio web, para que personas con habilidades diferentes puedan entender cada contenido.</p>
+
+        <h3>Atributos</h3>
+        <p>Los atributos le dan características extra a las etiquetas para complementar información y son pre programadas por el navegador, algunos atributos funcionan en todas las etiquetas de la misma forma como ‘class’ pero otros atributos funcionan en solo alguna etiquetas como src</p>
+
+        <h3 id="css">css</h3>
+        <p>Hojas de Estilo en Cascada (del inglés Cascading Style Sheets) o CSS es el lenguaje de estilos utilizado para describir la presentación de documentos HTML</p>
+        <img src="./images/image 5.png" alt="image css" title="image css">
+      </section>
+
+
+        <section  class="modelo-caja modelo">
+          <h2>Modelo de caja</h2>
+          <h3>El modelo de caja está compuesto por:</h3>
+          <p>Chrome va a ser el navegador que utilizaremos en el curso por su extenso soporte de nuevos estándares y herramientas de desarrollo avanzadas y de amigable uso.</p> 
+          <ol>
+            <li>Tamaño del del contenido / ancho y alto</li>
+            <li>Padding / Relleno</li>
+            <li>Border / Bordes</li>
+            <li>Margin / Márgenes</li>
+          </ol>
+
+          <h3>Propiedades físicas para el modelo de caja:</h3>
+          <ul>
+            <li>width / height</li>
+            <li>margin / margin-top | margin-right | margin-bottom | margin-left</li>
+            <li>border / border-top | border-right | border-bottom | border-left</li>
+            <li>padding / padding-top | padding-right | padding-bottom | padding-left</li>
+          </ul>
+
+          <h3>Propiedades lógicas para el modelo de caja:</h3>
+          <ul>
+            <li>inline-size / block-size</li>
+            <li>margin-block | margin-inline | margin-block-start | margin-block-end | margin-inline-start | margin-inline-end</li>
+            <li>border-block | border-inline | border-block-start | border-block-end | border-inline-start | border-inline-end</li>
+            <li>padding-block | padding-inline | padding-block-start | padding-block-end | padding-inline-start | padding-inline-end</li>
+          </ul>
+        </section>
+        <section>
+          <h2 class="caja">Modelo de caja</h2>
+          <div class="slider">
+            <scroll-container class="slider-container">
+              <scroll-page class="slider-slide" id="video-1">
+                <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/b4TZQmkoAB8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              </scroll-page>
+              <scroll-page class="slider-slide" id="video-2">
+                <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/b4TZQmkoAB8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              </scroll-page>
+              <scroll-page class="slider-slide" id="video-3">
+                <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/b4TZQmkoAB8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              </scroll-page>
+            </scroll-container>
+            <div class="slider-bullet-list">
+              <a href="#video-1" class="slider-bullet"></a>
+              <a href="#video-2" class="slider-bullet"></a>
+              <a href="#video-3" class="slider-bullet"></a>
+            </div>
+          </div>
+        </section>
+        <p class="parrafo-email">Si tienes alguna pregunta escríbeme a <a class="email" href="mailto:me@leonidasesteban">me@leonidasesteban.com</a></p>
+        <div class="formulario">
+          <h2>Suscríbete a nuestro newsletter</h2>
+          <form action="#" class="formulario-content">
+            <input type="text" placeholder="Nombre">
+            <input type="email" placeholder="Correo electrónico">
+            <div class="button">
+              <input type="submit" value="Suscribirme">
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <p>Leonidas Esteban 2021</p>
+    <figure class="icon">
+      <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M3.5 8C3.5 5.239 5.739 3 8.5 3H16.5C19.261 3 21.5 5.239 21.5 8V16C21.5 18.761 19.261 21 16.5 21H8.5C5.739 21 3.5 18.761 3.5 16V8ZM19.5 6C19.5 5.448 19.052 5 18.5 5C17.948 5 17.5 5.448 17.5 6C17.5 6.552 17.948 7 18.5 7C19.052 7 19.5 6.552 19.5 6ZM17.5 12C17.5 9.239 15.261 7 12.5 7C9.739 7 7.5 9.239 7.5 12C7.5 14.761 9.739 17 12.5 17C15.261 17 17.5 14.761 17.5 12ZM10.3787 9.87868C10.9413 9.31607 11.7044 9 12.5 9C13.2956 9 14.0587 9.31607 14.6213 9.87868C15.1839 10.4413 15.5 11.2044 15.5 12C15.5 12.7956 15.1839 13.5587 14.6213 14.1213C14.0587 14.6839 13.2956 15 12.5 15C11.7044 15 10.9413 14.6839 10.3787 14.1213C9.81607 13.5587 9.5 12.7956 9.5 12C9.5 11.2044 9.81607 10.4413 10.3787 9.87868Z" fill="white"/>
+        </svg>
+
+        <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M3.5 5C3.5 3.895 4.395 3 5.5 3H19.5C20.605 3 21.5 3.895 21.5 5V19C21.5 20.105 20.605 21 19.5 21H15.914V14.035H18.279L18.63 11.31H15.93V9.575C15.93 8.787 16.15 8.253 17.28 8.253H18.708V5.823C18.013 5.752 17.315 5.716 16.616 5.718C14.542 5.718 13.121 6.985 13.121 9.309V11.314H10.778V14.039H13.121V21H5.5C4.395 21 3.5 20.105 3.5 19V5Z" fill="white"/>
+          </svg>
+
+          <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M3.5 7C3.5 4.791 5.291 3 7.5 3H17.5C19.709 3 21.5 4.791 21.5 7V17C21.5 19.209 19.709 21 17.5 21H7.5C5.291 21 3.5 19.209 3.5 17V7ZM10.521 16.886C15.064 16.886 17.55 13.114 17.55 9.857V9.514C17.979 9.171 18.407 8.743 18.752 8.227C18.238 8.485 17.809 8.57 17.295 8.656C17.809 8.314 18.238 7.885 18.409 7.285C17.98 7.542 17.466 7.799 16.866 7.885C16.437 7.371 15.752 7.114 15.066 7.114C13.694 7.114 12.58 8.229 12.58 9.6C12.58 9.74154 12.6061 9.8573 12.6295 9.96131C12.6486 10.0462 12.666 10.1232 12.666 10.2C10.609 10.115 8.809 9.086 7.609 7.629C7.352 7.972 7.266 8.4 7.266 8.829C7.266 9.686 7.694 10.372 8.38 10.972C7.952 10.886 7.609 10.8 7.266 10.629C7.266 11.829 8.123 12.772 9.237 13.029C8.98 13.115 8.808 13.115 8.55101 13.115H8.551C8.51532 13.115 8.46483 13.1002 8.40575 13.0829C8.32244 13.0584 8.22205 13.029 8.122 13.029C8.465 13.972 9.322 14.743 10.436 14.743C9.579 15.343 8.464 15.772 7.35 15.772H6.75C7.864 16.457 9.15 16.886 10.521 16.886Z" fill="white"/>
+            </svg>
+    </figure>
+  </footer>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>
+
+
+

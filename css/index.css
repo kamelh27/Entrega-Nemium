@@ -1,0 +1,423 @@
+
+:root { 
+  --white: #ffffff; 
+  --grey: #545454; 
+  --black: #000000; 
+  --blue: #5551FF;
+}
+
+html,body{
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+header{
+  margin-block-start: 48px;
+  margin-inline: 16px;
+}
+
+header li{
+  margin-block-end: 16px;
+}
+
+header a{
+  text-decoration: none;
+  color: var(--black);
+}
+
+/* header li {
+  border: 1px solid red;
+  background: var(--blue);
+  /* color: var(--white); 
+} */
+
+header ol{
+  padding-inline-start: 16px;
+}
+
+.main-content{
+  margin-inline: 16px;
+}
+
+h1{
+  color: var(--black);
+  text-align: center;
+  
+}
+
+.parrafo-introduccion{
+  text-align: center;
+  color: var(--grey);
+  font-size: 16px;
+  line-height: 24px;
+  margin-block-end: 40px;
+}
+
+hr{
+  margin-block-end:40px ;
+  color: rgba(97,97,97,0.2);
+}
+
+.setup, .conceptos-esenciales{
+  text-align: center;
+}
+
+.setup h2{
+  font-size: 32px;
+ 
+}
+
+section h2{
+  font-weight: 400;
+}
+
+.caja{
+  margin-block-end: 16px;
+}
+
+section p{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: var(--grey);
+}
+
+section pre{
+  text-align: start;
+}
+
+
+.img{
+  background-image: linear-gradient(274.51deg, rgba(74,0,224,0.6) 5%, rgba(142,45,226, 0.5) 130.61%), url(/images/patron-2.png);
+  inline-size: 100%;
+  block-size: 50px ;
+  background-repeat: space round;
+}
+
+.contenido{
+  display: none;
+}
+
+
+
+details[open] summary{
+  color: var(--black);
+}
+
+details summary{
+  font-weight: bold;
+  font-size: 14px;
+  color: var(--grey);
+}
+
+nav details summary{
+  
+  line-height: 24px;
+}
+
+.logo{
+  margin: auto;
+  margin-block-start:40px ;
+}
+
+section img{
+  display: block;
+  max-inline-size: 100%;
+}
+
+.before h3{
+  counter-increment: titleList;
+}
+
+.before h3::before{
+  content: counter(titleList)'. ';
+}
+
+section h3{
+  margin-block-end: 16px;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.setup h3{
+  margin-block-start: 16px;
+}
+
+.modelo h3{
+  margin-block-start: 40px;
+}
+
+.conceptos-esenciales img{
+  margin-block-start: 16px;
+}
+
+span{
+  color: var(--blue);
+}
+
+blockquote{
+  margin-block: 40px;
+  margin-inline: 0;
+  border-inline-start: 4px solid var(--blue);
+}
+
+blockquote p{
+  color: var(--black);
+  padding-inline-start: 16px;
+  text-align: start;
+  line-height: 32px;
+}
+
+.cita::before{
+  content: '- ';
+}
+
+pre{
+  border: 8px solid var(--blue);
+  border-radius: 8px;
+  box-shadow: -10px 10px 0 #ABAAF6;
+  padding: 40px;
+}
+
+.modelo-caja h2{
+  margin-block: 40px;
+}
+
+.modelo-caja ol, ul{
+  color: var(--grey);
+  padding-inline-start: 16px;
+}
+
+.modelo-caja li{
+  line-height: 24px;
+}
+
+.modelo-caja ul li{
+  padding-block-end: 16px;
+}
+
+.modelo-caja ul li::marker{
+  color: var(--blue);
+}
+
+
+.slider-container{
+  display: block;
+  white-space: nowrap;
+  overflow: auto;
+  scroll-behavior: smooth;
+  font-size: 0;
+}
+
+
+
+.video{
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16/9;
+  margin: 0;
+}
+
+.slider-bullet-list{
+  text-align: center;
+  margin-block-start: 16px;
+  margin-block-end: 40px;
+}
+
+.slider-bullet{
+  display: inline-block;
+  inline-size: 16px;
+  block-size: 16px;
+  background: rgba(142, 45, 226, 0.5);
+  border-radius: 50%;
+}
+
+.slider-bullet:hover{
+  background: var(--blue);
+}
+
+.email{
+  color: var(--grey);
+}
+
+.parrafo-email{
+  margin-block-end: 40px;
+}
+
+.formulario{
+  margin-block-end: 40px;
+}
+
+.formulario h2{
+  margin-block-end:16px ;
+  font-weight: 400;
+}
+
+.formulario-content input{
+  display: block;
+  border:1px solid var(--black);
+  inline-size: 100%;
+  margin-block-end: 16px;
+  padding-block: 12px;
+  padding-inline-start: 16px;
+  box-sizing: border-box;
+  border-radius: 50px;
+  font-size: 16px;
+}
+
+
+input::-webkit-input-placeholder{
+  color: var(--black);
+}
+.formulario-content{
+  position: relative;
+}
+
+.button input{
+  position: absolute;
+  inline-size: 120.14px;
+  top: 61px;
+  right: 0;
+  background: var(--blue);
+  color: var(--white);
+  border: none;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+
+
+footer{
+  background: var(--black);
+  block-size: 174px;
+}
+
+footer p{
+  color: var(--white);
+  text-align: center;
+  font-size: 24px;
+  font-weight: 400;
+  padding-block-start: 48px ;
+  padding-block-end: 19px;
+  margin-block: 0;
+}
+
+footer p::before{
+  content: '© ';
+}
+
+.icon{
+  margin: 0;
+  text-align: center;
+}
+
+.icon svg{
+  display: inline-block;
+  padding-inline-start: 22px;
+}
+
+
+
+@media screen and (min-width: 1290px) {
+  h1{
+    margin-block-start: 60px;
+    margin-block-end: 16px;
+    font-size: 60px;
+  }
+
+ .img{
+  block-size: 350px;
+} 
+
+.header{
+  position:sticky;
+  inset-block-start: 35px;
+}
+
+.header-content{
+  position: relative;
+}
+
+header{
+  position: absolute;
+  inset-inline-end:113px;
+  margin-block-start: 60px;
+  margin-inline-start: 24px;
+  block-size: 312px;
+  inline-size: 208px;
+}
+
+.contenido{
+  display: block;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-block-end: 16px;
+}
+
+.main-wrapper{
+  max-inline-size: 900px;
+  margin: auto;
+}
+
+hr{
+  margin-block-end: 64px;
+}
+
+section h3{
+  font-size: 24px;
+  font-weight: 400;
+}
+
+blockquote {
+  margin-inline-start: 175px;
+  margin-block: 64px;
+}
+
+blockquote p{
+  font-size: 24px;
+}
+
+section h2{
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.modelo-caja h2{
+  margin-block-start: 154.56px;
+}
+
+.parrafo-email{
+  color: var(--grey);
+}
+
+.formulario{
+  margin-block-end: 113px;
+}
+
+.formulario-content input{
+  display: inline;
+  inline-size: 280px;
+}
+
+form input[type="text"]{
+  margin-inline-end: 16px;
+}
+
+.button input{
+  inline-size: 126px;
+  inset-block: 0;
+  inset-inline-end: 250px;
+}
+
+footer p{
+  font-size: 32px;
+}
+}
+
+
