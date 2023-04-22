@@ -92,7 +92,7 @@ section pre{
 
 
 .img{
-  background-image: linear-gradient(274.51deg, rgba(74,0,224,0.6) 5%, rgba(142,45,226, 0.5) 130.61%), url(./images/patron-2.png);
+  background-image: linear-gradient(274.51deg, rgba(74,0,224,0.6) 5%, rgba(142,45,226, 0.5) 130.61%), url('./images/patron-2.png');
   inline-size: 100%;
   block-size: 50px ;
   background-repeat: space round;
